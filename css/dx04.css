@@ -1,0 +1,488 @@
+		html{
+			font-size:100px;
+				}
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		#dx{
+			/*width:100%;*/
+			/*height:100%;*/
+			background-color: #eeeeee;
+			/*position: relative;*/
+		}
+		.main{
+			width:6.4rem;
+			/*border:0.01px solid black;*/
+			margin: 0 auto;
+			/*position: relative;*/
+		}
+		/*导航栏 开始*/
+		.header{
+			width:6.4rem;
+			height:0.8rem;
+		}
+		.nav{
+			width:6.4rem;
+			height:0.8rem;
+			/*border:1px solid red;*/
+			background-color: #fff;
+			/*margin:0 auto;*/
+
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+			position: fixed;
+			top:0;
+			/*left:134px;*/
+			z-index: 999;
+		
+		}
+		ul{
+			margin: 0px;
+			padding:0px;
+		}
+		.nav span{
+			font-size:0.3rem !important;
+			color:black !important;
+		}
+		.nav li img{
+			width:0.66rem;
+			height:0.28rem;
+		}
+		
+		.nav li:nth-child(3){
+			margin: auto;
+}
+
+		/*导航栏 结束*/
+		
+		/*scroll-img start*/
+
+
+		.scroll-img{
+			background-image: url("http://c.dx.com/edm/201707/20170728banner/IPHONE_Accessories_640X340.jpg");
+			background-size: 6.4rem 3.4rem;
+			width:6.4rem;
+			height: 3.4rem;
+			margin:0 auto;
+		}
+		
+		/*scroll-img end*/
+		/*nav-menu start*/
+		.nav-menu{
+			width:6.4rem;
+			height:1.94rem;
+			background-color:#fff;
+
+
+			
+		}
+		 .nav-menu ul{
+
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			
+			
+		}
+
+		 .nav-menu li{
+			width:1.60rem;
+			height:1.84rem;
+			/*border:1px solid red;*/
+
+			list-style: none;
+			margin-top:0.1rem;
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+
+
+		}
+		.nav-menu img{
+			width:0.92rem;
+			height:0.92rem;
+		}
+		.nav-menu li span{
+			display: inline-block;
+			width:1.38rem;
+			height:0.82rem; 
+			/*border:1px solid green;*/
+			font-size:0.25rem;
+			line-height: 1.2;
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/*nav-menu end*/
+
+		/*pro start*/
+		.pro{
+			width:6.4rem;
+			height:1.41rem;
+			/*border:1px solid red;*/
+			margin-top:0.08rem;
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+		}
+		.pro .pro-left{
+			width:3.14rem;
+			height:1.41rem;
+			/*border:1px solid green;*/
+			background-color: #fff;
+				
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: space-around;
+			align-items: center;
+
+		}
+		.pro .pro-lt-lt{
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.pro .pro-lt-lt span{
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		.pro .pro-lt-lt .bottom{
+			width:1.82rem;
+			height:0.42rem;
+			font-size:0.2rem;
+			color:#b0b0b0;
+			/*border:1px solid blue;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		.pro .pro-lt-lt .top{
+			width:1.82rem;
+			height:0.62rem;
+			font-size:0.25rem;
+			font-weight: bold;
+			/*border:1px solid blue;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-end;
+			align-items: flex-start;
+		}
+		.pro img{
+			width:1.09rem;
+			height:1.09rem;
+		}
+		/*pro end*/
+		/*main-nav start*/
+		#main{
+			width:6.40rem;
+			height:17.13rem;
+			/*border:1px solid orange;*/
+			/*margin-top:8px;*/
+		}
+		.main-nav{
+			width:6.40rem;
+			height:0.81rem;
+			/*border:1px solid red;*/
+			background-color: #fff;
+			margin-top:0.08rem;
+
+		}
+		#main .main-nav span{
+			font-size:0.3rem;
+			font-weight: bold;
+			line-height: 0.81rem;
+			color:black;
+
+		}
+		#main .box{
+			display: flex;
+			flex-flow:row wrap;
+			/*justify-content:space-between;*/
+			/*align-items: center;*/
+			justify-content: space-between;
+			/*align-items: flex-start;*/
+
+
+		}
+
+		.box li{
+			width:3.18rem;
+			height:2.69rem;
+			/*border:1px solid blue;*/
+			background-color: #fff;
+			margin-top:0.03rem;
+			list-style: none;
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: center;
+
+			position: relative;	
+
+		}
+		#main .box li .box-img{
+			/*width:180px;
+			height:180px;*/
+			/*border:1px solid red;*/
+			margin-top:0.10rem;
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		#main .box li img{
+			width:1.35rem;
+			height:1.35rem;
+			/*border:1px solid red;*/
+		}
+		#main .box li .font-top{
+			width:2.84rem;
+			height: 0.55rem;
+			/*border:1px solid red;*/
+			margin-top:0.06rem;
+			font-size:0.2rem;
+			line-height: 1.3;
+		}
+		#main .box li .font-bottom{
+			width:2.86rem;
+			height:0.62rem;
+			/*border:1px solid red;*/
+			/*margin-top:8px;*/
+
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		#main  span{
+			font-size:0.2rem;
+			color:#ff9c00;
+		}
+		#main .box li .font-bottom div .top-style{
+			font-size:0.2rem;
+			color:#ff9c00;
+			font-weight: bold;
+		
+		}
+		#main .box li .font-bottom div del{
+			font-size:0.2rem;
+			color:#aaaaaa;
+			/*font-weight: bold;*/
+			/*border:1px solid red;*/
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: flex-start;
+
+		}
+		#main .box li .font-bottom div span{
+			color:#aaaaaa;
+			font-size:0.18rem;
+		}
+		#main .box li .font-bottom div .font-img{
+					font-size:0.2rem;
+		}
+		
+		#main .box li .font-bottom div{
+			width:2.84rem;
+			height: 0.62rem;
+			/*border:1px solid red;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items:flex-start;
+		}
+		#main  .font-img{
+			position: absolute;
+			top:2.23rem;
+			right:0.08rem;
+			z-index:998;
+		}
+
+		#main .box .count{
+			width:0.74rem;
+			height:0.74rem;
+			border-radius: 50%;
+			background-color: #f38746;
+
+			position: absolute;
+			top:0;
+			right:0;
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#main .box .count span{
+			color:white;
+			font-size:0.25rem;
+			font-weight: bold;
+			/*line-height: 74px;*/
+			line-height: 1.2;
+
+
+		}
+
+			/* main-nav end*/
+
+		/*footer start*/
+
+			.footer{
+				width:6.40rem;
+				height:2.23rem;
+				/*border:1px solid red;*/
+				background-color: 	#fff;
+				/*margin-bottom:2rem;*/
+				border-top:0.01rem #dddddd solid;
+						
+				display:flex;
+				flex-flow:column nowrap;
+				justify-content: space-around;
+				align-items: center;
+
+			}
+			.footer .footer-top{
+				width:6.4rem;
+				height:1.35rem;
+				/*border:1px solid red;*/
+			}
+
+			.footer ul{
+				/*width:;*/
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:space-around;
+				align-items: center;
+			}
+			.footer ul li{
+				height:0.67rem;
+				list-style: none;
+				/*border:1px solid red;*/
+
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: flex-end;
+			}
+
+			.footer ul li a{
+				font-size:0.2rem;
+				color:#656565;
+				/*font-weight: bold;*/
+			}
+			.footer .footer-top div{
+				/*border:1px solid red;*/
+				height:0.67rem;
+					display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: center;
+			}
+			.footer .footer-top div a{
+				font-size:0.2rem;
+				/*font-weight: bold;*/
+				color:#656565;
+			
+
+			}
+			.footer span{
+				width:6.4rem;
+				height:0.87rem;
+				color:#a9a9a9;
+				font-size:0.2rem;
+				/*font-weight: bold;*/
+				border-top:0.01rem solid #dddddd;
+
+					display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: center;
+			}
+
+
+
+		/*footer end*/
+
+
+
+
+
+
+
+
+
+
+	/*屏幕自适应设置 开始*/
+	@media only screen and (max-width: 359px) 
+	{
+		html{
+			font-size:50px !important;
+		}
+	}
+
+	@media only screen and (min-width: 360px) 
+	{
+		html{
+			font-size:58px !important;
+		}
+	}
+		@media only screen and (min-width: 411px) 
+	{
+		html{
+			font-size:64px !important;
+		}
+	}
+	@media only screen and (min-width: 569px) 
+	{
+		html{
+			font-size:100px !important;
+		}
+	}
+	
+		@media only screen and (min-width: 641px) 
+	{
+		html{
+			font-size:100px !important;
+		}
+	}
+		@media only screen and (min-width: 768px) 
+	{
+		html{
+			font-size:120px !important;
+		}
+	}
+	
+			@media only screen and (min-width: 1024px) 
+	{
+		html{
+			font-size:160px !important;
+		}
+	}
+
+	/*屏幕自适应设置 结束*/

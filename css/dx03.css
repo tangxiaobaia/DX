@@ -1,0 +1,473 @@
+		/*html{
+			font-size:10px;
+				}*/
+		*{
+			margin:0rem;
+			padding:0rem;
+		}
+		#dx{
+			/*width:100%;*/
+			/*height:100%;*/
+			background-color: #eeeeee;
+			/*position: relative;*/
+		}
+		.main{
+			width:6.4%;
+			border:0.01rem solid black;
+			margin: 0 auto;
+			/*position: relative;*/
+		}
+		/*导航栏 开始*/
+		.header{
+			width:0.64%;
+			height:8rem;
+			border:1px solid red;
+
+		}
+		.nav{
+			width:64%;
+			height:8rem;
+			/*border:1px solid red;*/
+			background-color: #fff;
+			/*margin:0 auto;*/
+
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+			position: fixed;
+			top:0;
+			/*left:134px;*/
+			z-index: 999;
+		
+		}
+		.nav span{
+			font-size:3rem !important;
+			color:black !important;
+		}
+		
+		.nav li:nth-child(3){
+			margin: auto;
+}
+
+		/*导航栏 结束*/
+		
+		/*scroll-img start*/
+
+
+		.scroll-img{
+			background-image: url("http://c.dx.com/edm/201707/20170728banner/IPHONE_Accessories_640X340.jpg");
+			background-size: 64% 34%;
+		}
+		
+		/*scroll-img end*/
+		/*nav-menu start*/
+		.nav-menu{
+			width:64%;
+			height:19.4%;
+			background-color:#fff;
+
+
+			
+		}
+		 .nav-menu ul{
+
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			
+			
+		}
+
+		 .nav-menu li{
+			width:16%;
+			height:18.4%;
+			/*border:1px solid red;*/
+
+			list-style: none;
+			margin-top:1rem;
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+
+
+		}
+		.nav-menu img{
+			width:9.2%;
+			height:9.2%;
+		}
+		.nav-menu li span{
+			display: inline-block;
+			width:13.8%;
+			height:8.2%; 
+			/*border:1px solid green;*/
+			font-size:2.5rem;
+			line-height: 1.2;
+
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/*nav-menu end*/
+
+		/*pro start*/
+		.pro{
+			width:64rem;
+			height:14.1rem;
+			/*border:1px solid red;*/
+			margin-top:0.8rem;
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+		}
+		.pro .pro-left{
+			width:31.4rem;
+			height:14.1rem;
+			/*border:1px solid green;*/
+			background-color: #fff;
+				
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: space-around;
+			align-items: center;
+
+		}
+		.pro .pro-lt-lt{
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.pro .pro-lt-lt span{
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		.pro .pro-lt-lt .bottom{
+			width:18.2rem;
+			height:4.2rem;
+			font-size:2rem;
+			color:#b0b0b0;
+			/*border:1px solid blue;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		.pro .pro-lt-lt .top{
+			width:18.2rem;
+			height:6.2rem;
+			font-size:2.5rem;
+			font-weight: bold;
+			/*border:1px solid blue;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-end;
+			align-items: flex-start;
+		}
+		.pro img{
+			width:10.9rem;
+			height:10.9rem;
+		}
+		/*pro end*/
+		/*main-nav start*/
+		#main{
+			width:64rem;
+			height:171.3rem;
+			/*border:1px solid orange;*/
+			/*margin-top:8px;*/
+		}
+		.main-nav{
+			width:64rem;
+			height:8.1rem;
+			/*border:1px solid red;*/
+			background-color: #fff;
+			margin-top:0.8rem;
+
+		}
+		#main .main-nav span{
+			font-size:3rem;
+			font-weight: bold;
+			line-height: 8.1rem;
+			color:black;
+
+		}
+		#main .box{
+			display: flex;
+			flex-flow:row wrap;
+			/*justify-content:space-between;*/
+			/*align-items: center;*/
+			justify-content: space-between;
+			/*align-items: flex-start;*/
+
+
+		}
+
+		.box li{
+			width:31.8rem;
+			height:26.9rem;
+			/*border:1px solid blue;*/
+			background-color: #fff;
+			margin-top:0.3rem;
+			list-style: none;
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: center;
+
+			position: relative;	
+
+		}
+		#main .box li .box-img{
+			/*width:180px;
+			height:180px;*/
+			/*border:1px solid red;*/
+			margin-top:1rem;
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		#main .box li img{
+			width:13.5rem;
+			height:13.5rem;
+			/*border:1px solid red;*/
+		}
+		#main .box li .font-top{
+			width:28.4rem;
+			height: 5.5rem;
+			/*border:1px solid red;*/
+			margin-top:0.6rem;
+			font-size:2rem;
+			line-height: 1.3;
+		}
+		#main .box li .font-bottom{
+			width:28.6rem;
+			height: 6.2rem;
+			/*border:1px solid red;*/
+			/*margin-top:8px;*/
+
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		#main  span{
+			font-size:2rem;
+			color:#ff9c00;
+		}
+		#main .box li .font-bottom div .top-style{
+			font-size:2rem;
+			color:#ff9c00;
+			font-weight: bold;
+		
+		}
+		#main .box li .font-bottom div del{
+			font-size:2rem;
+			color:#aaaaaa;
+			/*font-weight: bold;*/
+			/*border:1px solid red;*/
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: flex-start;
+
+		}
+		#main .box li .font-bottom div span{
+			color:#aaaaaa;
+			font-size:1.8rem;
+		}
+		#main .box li .font-bottom div .font-img{
+					font-size:2rem;
+		}
+		
+		#main .box li .font-bottom div{
+			width:28.4rem;
+			height: 6.2rem;
+			/*border:1px solid red;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items:flex-start;
+		}
+		#main  .font-img{
+			position: absolute;
+			top:22.3rem;
+			right:0.8rem;
+			z-index:998;
+		}
+
+		#main .box .count{
+			width:7.4rem;
+			height:7.4rem;
+			border-radius: 50%;
+			background-color: #f38746;
+
+			position: absolute;
+			top:0;
+			right:0;
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#main .box .count span{
+			color:white;
+			font-size:2.5rem;
+			font-weight: bold;
+			/*line-height: 74px;*/
+			line-height: 1.2;
+
+
+		}
+
+			/* main-nav end*/
+
+		/*footer start*/
+
+			.footer{
+				width:64rem;
+				height:22.3rem;
+				/*border:1px solid red;*/
+				background-color: 	#fff;
+				margin-bottom:2rem;
+				border-top:0.1rem #dddddd solid;
+						
+				display:flex;
+				flex-flow:column nowrap;
+				justify-content: space-around;
+				align-items: center;
+
+			}
+			.footer .footer-top{
+				width:64rem;
+				height:13.5rem;
+				/*border:1px solid red;*/
+			}
+
+			.footer ul{
+				/*width:;*/
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:space-around;
+				align-items: center;
+			}
+			.footer ul li{
+				height:6.7rem;
+				list-style: none;
+				/*border:1px solid red;*/
+
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: flex-end;
+			}
+
+			.footer ul li a{
+				font-size:2rem;
+				color:#656565;
+				/*font-weight: bold;*/
+			}
+			.footer .footer-top div{
+				/*border:1px solid red;*/
+				height:6.7rem;
+					display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: center;
+			}
+			.footer .footer-top div a{
+				font-size:2rem;
+				/*font-weight: bold;*/
+				color:#656565;
+			
+
+			}
+			.footer span{
+				width:64rem;
+				height:8.7rem;
+				color:#a9a9a9;
+				font-size:2rem;
+				/*font-weight: bold;*/
+				border-top:0.1rem solid #dddddd;
+
+					display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: center;
+			}
+
+
+
+		/*footer end*/
+
+
+
+
+
+
+
+
+
+
+	/*屏幕自适应设置 开始*/
+		@media only screen and (max-width:312px)
+	{
+		html{
+			font-size:3px;
+		}
+	}
+
+
+	@media onsly screen and (max-height: -width:374px)
+	{
+		html{
+			font-size:703% !important;
+		}
+	}
+
+	@media only screen and (min-width: 0px) and (max-width:374px)
+	{
+		html{
+			font-size:20px !important;
+		}
+	}
+	@media only screen and (min-width: 375px) and (max-width:479px)
+	{
+		html{
+			font-size:40px !important;
+		}
+	}
+		@media only screen and (min-width: 480px) and (max-width:640px)
+	{
+		html{
+			font-size:60px !important;
+		}
+	}
+		@media only screen and (min-width: 641px) and (max-width:1000px) 
+	{
+		html{
+			font-size:100px !important;
+		}
+	}
+
+	/*屏幕自适应设置 结束*/

@@ -1,0 +1,476 @@
+		html{
+			font-size:100px;
+			/*background-color: #eeeeee;*/
+				}
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		body{
+			background-color: #eeeeee;
+		}
+
+		.main{
+			/*border:0.01rem solid black;*/
+			margin: 0 auto;
+			max-width: 640px;
+			min-width: 336px;
+			
+		}
+		/*导航栏 开始*/
+
+		.nav{
+			width:100%;
+			background-color: #fff;
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			align-items: center;
+			position: fixed;
+			top:0;
+			max-width: 640px;
+			min-width: 336px;
+			z-index: 999;
+
+			padding:0.1rem 0;
+		}
+		ul{
+			margin: 0px;
+			padding:0px;
+		}
+		.nav span{
+			font-size:0.3rem !important;
+			color:black !important;
+		}
+		.nav li img{
+			width:0.9rem;
+		}	
+		.nav li:nth-child(3){
+			margin: auto;
+}
+
+		/*导航栏 结束*/
+		
+		/*scroll-img start*/
+
+
+		.scroll-img{
+			width:100%;
+			/*height:3.4rem;*/
+			margin-top:0.8rem;
+
+		}
+		.scroll-img img{
+			width:100%;
+		}
+		
+		/*scroll-img end*/
+		/*nav-menu start*/
+		.nav-menu{
+			width:100%;
+			background-color:#fff;
+			/*margin-top:0.06rem;		*/
+		}
+		 .nav-menu ul{
+			
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			
+			
+		}
+
+		 .nav-menu li{
+			width:25%;
+			/*height:1.84rem;*/
+			/*border:1px solid red;*/
+			list-style: none;
+			margin-top:0.3rem;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+
+
+		}
+		.nav-menu img{
+			width:60%;
+		}
+		.nav-menu li span{
+			display: inline-block;
+			width:90%;
+			height:0.82rem; 
+			/*border:1px solid green;*/
+			font-size:0.25rem;
+			line-height: 1.2;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/*nav-menu end*/
+
+		/*pro start*/
+		#pro{
+			width:100%;
+			/*border:1px solid red;*/
+			margin-top:0.08rem;
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: space-between;
+			align-items: center;
+
+		}
+		#pro .pro-left{
+			width:49.5%;
+			height:1.41rem;
+			/*border:1px solid green;*/
+			background-color: #fff;
+				
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: center;
+
+		}
+		#pro .pro-lt-lt{
+			width:60%;
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		#pro .pro-lt-lt span{
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		#pro .pro-lt-lt .bottom{
+			width:1.82rem;
+			/*height:0.42rem;*/
+			font-size:0.2rem;
+			color:#b0b0b0;
+			margin-bottom:0.15rem;
+			/*border:1px solid blue;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		#pro .pro-lt-lt .top{
+			width:1.82rem;
+			height:0.62rem;
+			font-size:0.25rem;
+			font-weight: bold;
+			/*border:1px solid blue;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		#pro .pro-img{
+			width:30%;
+
+		}
+		#pro .pro-img img{
+			width:90%;
+		
+		}
+		/*pro end*/
+		/*main-nav start*/
+		#main{
+			width:100%;
+			margin-top:0.8px;
+		}
+		.main-nav{
+			width:100%;
+			background-color: #fff;
+			margin-top:0.08rem;
+
+
+		}
+		#main .main-nav span{
+			font-size:0.3rem;
+			font-weight: bold;
+			line-height: 0.81rem;
+			color:black;
+			margin-left:0.15rem;
+
+		}
+		#main .box{
+			display: flex;
+			flex-flow:row wrap;
+			justify-content: space-between;
+			/*align-items: flex-start;*/
+
+
+		}
+
+		.box li{
+			width:49.8%;
+			/*border:1px solid blue;*/
+			background-color: #fff;
+			margin-top:0.03rem;
+			list-style: none;
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items: center;
+
+			position: relative;	
+
+		}
+		#main .box li .box-img{
+			/*border:1px solid red;*/
+			width:1.4rem;
+			height: 1.4rem;
+
+			margin-top:0.10rem;
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: center;
+		}
+		#main .box li img{
+			width:0.9rem;
+			height:0.9rem;
+			/*height:1.35rem;*/
+			/*border:1px solid red;*/
+		}
+		#main .box li .font-top{
+			width:2.75rem;
+			/*height: 0.55rem;*/
+			/*border:1px solid red;*/
+			margin-top:0.06rem;
+			font-size:0.2rem;
+			line-height: 1.3;
+		}
+		#main .box li .font-bottom{
+			width:2.75rem;
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		#main  span{
+			font-size:0.2rem;
+			color:#ff9c00;
+		}
+		#main .box li .font-bottom div .top-style{
+			font-size:0.2rem;
+			color:#ff9c00;
+			font-weight: bold;
+		
+		}
+		#main .box li .font-bottom div del{
+			font-size:0.2rem;
+			color:#aaaaaa;
+			/*font-weight: bold;*/
+			/*border:1px solid red;*/
+
+			display: flex;
+			flex-flow:row nowrap;
+			justify-content: center;
+			align-items: flex-start;
+
+		}
+		#main .box li .font-bottom div span{
+			color:#aaaaaa;
+			font-size:0.18rem;
+		}
+		#main .box li .font-bottom div .font-img{
+			font-size:0.2rem;
+		}
+		
+		#main .box li .font-bottom div{
+			width:2.84rem;
+			/*height: 0.62rem;*/
+			/*border:1px solid red;*/
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: flex-start;
+			align-items:flex-start;
+		}
+		#main  .font-img{
+			position: absolute;
+			top:2.1rem;
+			right:0.08rem;
+			z-index:998;
+			font-size: 0.35rem;
+		}
+
+		#main .box .count{
+			width:0.64rem;
+			height:0.64rem;
+			border-radius: 50%;
+			background-color: #f38746;
+
+			position: absolute;
+			top:0;
+			right:0;
+
+			display: flex;
+			flex-flow:column nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#main .box .count span{
+			color:white;
+			font-size:0.20rem;
+			font-weight: bold;
+			/*line-height: 74px;*/
+			line-height: 1.2;
+
+
+		}
+
+			/* main-nav end*/
+
+		/*footer start*/
+
+			.footer{
+				width:100%;
+				/*height:2.23rem;*/
+				margin:0 auto;
+				/*border:1px solid red;*/
+				background-color: 	#fff;
+				/*margin-bottom:2rem;*/
+				border-top:0.02rem #dddddd solid;
+						
+				display:flex;
+				flex-flow:column nowrap;
+				justify-content: space-around;
+				align-items: center;
+				/*margin-top:0.04rem;*/
+
+			}
+			.footer .footer-top{
+				width:6.4rem;
+				height:1.35rem;
+				/*border:1px solid red;*/
+			}
+
+			.footer ul{
+				/*width:;*/
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:space-around;
+				align-items: center;
+			}
+			.footer ul li{
+				height:0.67rem;
+				list-style: none;
+				/*border:1px solid red;*/
+
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: flex-end;
+			}
+
+			.footer ul li a{
+				font-size:0.2rem;
+				color:#656565;
+				/*font-weight: bold;*/
+			}
+			.footer .footer-top div{
+				/*border:1px solid red;*/
+				height:0.67rem;
+					display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: center;
+			}
+			.footer .footer-top div a{
+				font-size:0.2rem;
+				/*font-weight: bold;*/
+				color:#656565;
+			
+
+			}
+			.footer span{
+				width:100%;
+				padding:0.435rem;
+				color:#a9a9a9;
+				font-size:0.2rem;
+				/*font-weight: bold;*/
+				border-top:0.01rem solid #dddddd;
+
+				display:flex;
+				flex-flow:row nowrap;
+				justify-content:center;
+				align-items: center;
+			}
+
+
+
+		/*footer end*/
+
+
+
+
+
+
+
+
+
+
+	/*屏幕自适应设置 开始*/
+	@media all and (max-width: 359px) 
+	{
+		html{
+			font-size:50px !important;
+		}
+	}
+	
+	@media all and (min-width: 360px)  
+	{
+		html{
+			font-size:58px !important;
+		}
+	}
+		@media all and (min-width: 569px) 
+	{
+		html{
+			font-size:64px !important;
+		}
+	}
+	@media all and (min-width: 640px) 
+	{
+		html{
+			font-size:100px !important;
+		}
+	}
+	
+		@media all and (min-width: 641px) 
+	{
+		html{
+			font-size:100px !important;
+		}
+	}
+/*		@media only screen and (min-width: 768px) 
+	{
+		html{
+			font-size:140px !important;
+		}
+	}
+	
+			@media only screen and (min-width: 1024px) 
+	{
+		html{
+			font-size:160px !important;
+		}
+	}*/
+
+	/*屏幕自适应设置 结束*/
